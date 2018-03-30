@@ -19,8 +19,6 @@
 ## 代码
 
 ```java
-package com.realcloud.storage.util;
-
 import java.net.URI;
 import java.net.URISyntaxException;
 
@@ -106,7 +104,7 @@ public class ExchangeMailUtil {
   public static void main(String[] args) throws Exception {
     ExchangeMailUtil mailUtil =
         new ExchangeMailUtil("https://mail.***.com/EWS/exchange.asmx", "用户名", "密码");
-    mailUtil.send("Subject", "hsinDumas@gmail.com", "content");
+    mailUtil.send("Subject", "hsindumas@gmail.com", "content");
     System.out.println("success");
   }
 }
@@ -328,7 +326,7 @@ java InstallCert www.twitter.com
 
 ```
 java InstallCert www.twitter.com  
-Loading KeyStore /usr/java/jdk1.6.0_16/jre/lib/security/cacerts...  
+Loading KeyStore /opt/jdk1.8.0_112/jre/lib/security/cacerts...  
 Opening connection to www.twitter.com:443...  
 Starting SSL handshake...  
   
